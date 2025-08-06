@@ -11,7 +11,7 @@ file_count=$(ls -1 | wc -l)
 
 
 while true; do
-    prompt_user
+    ask_user
     if [[ "$guess" -eq "$file_count" ]]; then
         echo "Congratulations! You guessed correctly."
         break
